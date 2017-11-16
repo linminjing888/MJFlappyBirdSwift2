@@ -13,7 +13,7 @@ enum MusicPlayerError : Error {
     case resourceNotFound
 }
 
-class MusicPlay {
+class MusicPlayer {
     /// 单例
     fileprivate var player: AVAudioPlayer? = nil
     

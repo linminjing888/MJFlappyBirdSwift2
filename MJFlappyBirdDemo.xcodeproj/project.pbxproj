@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE6F29161FBC2F08000F9F90 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AE84D61A1FBAE73700DCEAF5 /* bird.atlas */; };
+		AE84D6211FBAEB5900DCEAF5 /* flap.wav in Resources */ = {isa = PBXBuildFile; fileRef = AE84D61D1FBAEB4B00DCEAF5 /* flap.wav */; };
+		AE84D6221FBAEB5900DCEAF5 /* Pamgaea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE84D61E1FBAEB4B00DCEAF5 /* Pamgaea.mp3 */; };
+		AE84D6231FBAEB5900DCEAF5 /* point.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE84D61F1FBAEB4B00DCEAF5 /* point.mp3 */; };
+		AE84D6241FBAEB5900DCEAF5 /* punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = AE84D6201FBAEB4B00DCEAF5 /* punch.wav */; };
+		AE9B686A1FB985B600C3E1B7 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B68691FB985B600C3E1B7 /* MusicPlayer.swift */; };
 		AE9E26381FB19BA5006E8BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E26371FB19BA5006E8BCB /* AppDelegate.swift */; };
-		AE9E263A1FB19BA6006E8BCB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AE9E26391FB19BA6006E8BCB /* GameScene.sks */; };
-		AE9E263C1FB19BA6006E8BCB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AE9E263B1FB19BA6006E8BCB /* Actions.sks */; };
 		AE9E263E1FB19BA6006E8BCB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E263D1FB19BA6006E8BCB /* GameScene.swift */; };
 		AE9E26401FB19BA6006E8BCB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E263F1FB19BA6006E8BCB /* GameViewController.swift */; };
 		AE9E26431FB19BA6006E8BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9E26411FB19BA6006E8BCB /* Main.storyboard */; };
@@ -18,10 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE84D61A1FBAE73700DCEAF5 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		AE84D61D1FBAEB4B00DCEAF5 /* flap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flap.wav; sourceTree = "<group>"; };
+		AE84D61E1FBAEB4B00DCEAF5 /* Pamgaea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pamgaea.mp3; sourceTree = "<group>"; };
+		AE84D61F1FBAEB4B00DCEAF5 /* point.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = point.mp3; sourceTree = "<group>"; };
+		AE84D6201FBAEB4B00DCEAF5 /* punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = punch.wav; sourceTree = "<group>"; };
+		AE9B68691FB985B600C3E1B7 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		AE9E26341FB19BA5006E8BCB /* MJFlappyBirdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJFlappyBirdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9E26371FB19BA5006E8BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE9E26391FB19BA6006E8BCB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		AE9E263B1FB19BA6006E8BCB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		AE9E263D1FB19BA6006E8BCB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		AE9E263F1FB19BA6006E8BCB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AE9E26421FB19BA6006E8BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE84D61C1FBAEB4B00DCEAF5 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AE84D61D1FBAEB4B00DCEAF5 /* flap.wav */,
+				AE84D61E1FBAEB4B00DCEAF5 /* Pamgaea.mp3 */,
+				AE84D61F1FBAEB4B00DCEAF5 /* point.mp3 */,
+				AE84D6201FBAEB4B00DCEAF5 /* punch.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		AE9E262B1FB19BA5006E8BCB = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +79,12 @@
 		AE9E26361FB19BA5006E8BCB /* MJFlappyBirdDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AE84D61A1FBAE73700DCEAF5 /* bird.atlas */,
+				AE84D61C1FBAEB4B00DCEAF5 /* sounds */,
 				AE9E26371FB19BA5006E8BCB /* AppDelegate.swift */,
-				AE9E26391FB19BA6006E8BCB /* GameScene.sks */,
-				AE9E263B1FB19BA6006E8BCB /* Actions.sks */,
 				AE9E263D1FB19BA6006E8BCB /* GameScene.swift */,
 				AE9E263F1FB19BA6006E8BCB /* GameViewController.swift */,
+				AE9B68691FB985B600C3E1B7 /* MusicPlayer.swift */,
 				AE9E26411FB19BA6006E8BCB /* Main.storyboard */,
 				AE9E26441FB19BA6006E8BCB /* Assets.xcassets */,
 				AE9E26461FB19BA6006E8BCB /* LaunchScreen.storyboard */,
@@ -132,11 +152,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6F29161FBC2F08000F9F90 /* bird.atlas in Resources */,
+				AE84D6211FBAEB5900DCEAF5 /* flap.wav in Resources */,
+				AE84D6221FBAEB5900DCEAF5 /* Pamgaea.mp3 in Resources */,
+				AE84D6231FBAEB5900DCEAF5 /* point.mp3 in Resources */,
+				AE84D6241FBAEB5900DCEAF5 /* punch.wav in Resources */,
 				AE9E26431FB19BA6006E8BCB /* Main.storyboard in Resources */,
-				AE9E263A1FB19BA6006E8BCB /* GameScene.sks in Resources */,
 				AE9E26451FB19BA6006E8BCB /* Assets.xcassets in Resources */,
 				AE9E26481FB19BA6006E8BCB /* LaunchScreen.storyboard in Resources */,
-				AE9E263C1FB19BA6006E8BCB /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9E263E1FB19BA6006E8BCB /* GameScene.swift in Sources */,
+				AE9B686A1FB985B600C3E1B7 /* MusicPlayer.swift in Sources */,
 				AE9E26401FB19BA6006E8BCB /* GameViewController.swift in Sources */,
 				AE9E26381FB19BA5006E8BCB /* AppDelegate.swift in Sources */,
 			);
@@ -289,11 +313,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2538H4P3P;
 				INFOPLIST_FILE = MJFlappyBirdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.MJFlappyBirdDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,11 +329,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2538H4P3P;
 				INFOPLIST_FILE = MJFlappyBirdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.MJFlappyBirdDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -12,19 +12,23 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    fileprivate var player: MusicPlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        do {
+            player = try MusicPlayer(fileName: "Pamgaea", type: "mp3")
+            player?.play()
+        } catch _ {
+            print("Error Play")
+        }
+        
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
             
+            let scene = GameScene(size:view.bounds.size)
+                scene.scaleMode = .aspectFill
+                view.presentScene(scene)
             view.ignoresSiblingOrder = true
             
             view.showsFPS = true
